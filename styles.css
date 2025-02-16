@@ -37,6 +37,7 @@ body{
     width: 18vmin;
     font-size: 8vmin;
     color: #F96E2A;
+    background-color: #fff;
     border:none;
     border-radius: 1rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
