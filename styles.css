@@ -5,13 +5,17 @@
 
 body{
     background-color: #a5cfe4;
-    /* text-align: center; */
-     
+    height: 100vh;
+    /* margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
 }
 
 .container{
     height: 70vh;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,15 +29,24 @@ body{
     gap:10px;
     display: flex;
     justify-content: center; 
-    align-items: center;
-    background-color: lightpink;
-   
+    align-items: center;  
 }
-
-
 
 .box{
     height:18vmin;
     width: 18vmin;
-    font-size: 2rem;
+    font-size: 8vmin;
+    color: #F96E2A;
+    border:none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
 }
+
+#reset-btn {
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 2rem;
+    border:none;
+    border-radius: 1rem; 
+  }
+  
