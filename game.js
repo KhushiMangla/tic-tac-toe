@@ -11,6 +11,7 @@ let turnO = "true";
 const reset = () => {
   turnO = "true";
   enableBoxes();
+//   box.style.color = "#6D28D9";
 };
 
 const disableBoxes = () => {
@@ -24,6 +25,7 @@ const enableBoxes = () => {
   for (let box of boxes) {
     box.disabled = false;
     box.innerText = "";
+    box.style.color = "";
   }
 };
 
